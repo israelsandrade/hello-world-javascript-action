@@ -11,7 +11,7 @@ jobs:
         with:
           # who-to-greet: 'Israel Andrade'
           sigla: 'EB6'
-          tipo: 'dependencia'
+          tipo: 'batata'
           tecnologia: 'generic'
       # Use the output from the `hello` step
       - name: Get the output time
