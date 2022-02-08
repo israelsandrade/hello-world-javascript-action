@@ -11557,7 +11557,7 @@ try {
     console.log('Sigla do GitLab');
   }
   else{
-    console.log(`Sigla informada: {sigla}`)
+    console.log(`Sigla informada: ${sigla}`)
   }
 
   if (['app', 'application', 'aplicação', 'aplicacao'].indexOf(tipo) > -1) {

@@ -1,10 +1,19 @@
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  #who-to-greet:  # id of input
+  #  description: 'Who to greet'
+  #  required: true
+  #  default: 'World'
+  sigla: # sigla do repo
+    description: 'Sigla do repositorio'
     required: true
-    default: 'World'
+  tipo: # tipo do repo
+    description: 'Tipo do repositorio - aplication|dependence'
+    required: true
+  tecnologia: # tecnologia do repo
+    description: 'Tecnologia do repositorio'
+    required: true
 outputs:
   time: # id of output
     description: 'The time we greeted you'
