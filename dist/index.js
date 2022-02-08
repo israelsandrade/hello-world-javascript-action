@@ -11557,6 +11557,7 @@ try {
   axios.get('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
     .then(response => {
       console.log(response.data.url);
+      console.log("pão");
       console.log(response.data.explanation);
     })
     .catch(error => {
